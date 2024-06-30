@@ -59,10 +59,6 @@ public class LinksManager {
     }
 
     public void registerLinks() {
-        Bukkit.getServerLinks().addLink(Component.text("Hii")
-            .clickEvent(ClickEvent.callback(f -> {
-                f.sendMessage(Component.text("Hello!"));
-            })), URI.create("https://google.com"));
         for (final Map.Entry<String, Link> entry : this.bootstrapper.config().get().links().entrySet()) {
             final String name = entry.getKey();
             final Link link = entry.getValue();
