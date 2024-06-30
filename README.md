@@ -4,7 +4,7 @@ This plugin allows you to add custom links to the Server Links feature added in 
 
 ***Get DEV builds [here](https://nightly.link/powercasgamer/mServerLinks/workflows/build/main/artifacts.zip)***
 
-### Screenshots
+### Screenshots!
 ![](https://i.imgur.com/ac911YS.png)
 ![](https://i.imgur.com/R3QUcKN.gif)
 
